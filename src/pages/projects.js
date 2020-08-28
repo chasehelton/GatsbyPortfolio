@@ -8,12 +8,12 @@ import SummitCollege from '../projects/SummitCollege'
 const ProjectsPage = () => (
   <Layout>
     <SEO title="Projects" />
+    <h2 style={{textAlign: 'center',}}>See more projects on my GitHub</h2>
     <div className="outerProjectsWrapper">
       <div className="innerProjectsWrapper">
         <Dijkstra />
         <SummitCollege />
       </div>
-      <h2 style={{margin: '10 auto',}}>More at my GitHub!</h2>
     </div>
   </Layout>
 )
