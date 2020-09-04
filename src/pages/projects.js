@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 
 import Dijkstra from '../projects/Dijkstra'
 import SummitCollege from '../projects/SummitCollege'
+import DailyDrops from '../projects/DailyDrops'
 
 const ProjectsPage = () => (
   <Layout>
@@ -13,6 +14,7 @@ const ProjectsPage = () => (
       <div className="innerProjectsWrapper">
         <Dijkstra />
         <SummitCollege />
+        <DailyDrops />
       </div>
     </div>
   </Layout>

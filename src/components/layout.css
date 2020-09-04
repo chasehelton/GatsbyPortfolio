@@ -106,9 +106,9 @@ body {
 }
 
 .projectDiv {
-  height: 600px;
+  height: 700px;
   max-width: 500px;
-  margin: 5px 10px;
+  margin: 5px 15px;
   border: 1px solid #5ccbec;
   flex: 1 1 375px;
   text-align: center;
@@ -120,6 +120,20 @@ body {
   justify-content: space-evenly;
 }
 
+.projectWrapper {
+  flex-direction: row;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+
+.subProjectWrapper {
+  flex: 1;
+}
+.subProjectWrapper2 {
+  flex: 1;
+}
+
 .builtWith {
   color: black;
   display: flex;
@@ -127,6 +141,7 @@ body {
   justify-content: center;
   align-items: center;
   flex: 1;
+  margin-bottom: 20px;
 }
 
 .interact {
